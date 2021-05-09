@@ -1,1 +1,21 @@
-#This is file that required for using an custom components
+say:
+  description: Google Cloud 使用廣東話 TTS (文字轉語音)
+  fields:
+    entity_id:
+      description: 指定播放 TTS 嘅音箱
+      example: 'media_player.mac_chrome'
+    message:
+      description: TTS 播放嘅內容
+      example: '廣東話測試'
+    speed:
+      description: 語速
+      example: '1.0'
+    pitch:
+      description: 語調
+      example: '0'
+    language:
+      description: 語言/方言
+      example: 'yue-HK'
+    voice_name:
+      description: 語音名稱，yue-HK-Standard-A/B/C/D 四把男女聲
+      example: 'yue-HK-Standard-C'
