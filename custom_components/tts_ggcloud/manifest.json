@@ -1,6 +1,7 @@
 {
   "domain": "tts_ggcloud",
   "name": "tts_ggcloud",
+  "version": "1.0",
   "documentation": "https://github.com/phanmemkhoinghiep/homeassistant/tree/master/custom_components/tts_ggcloud",
   "dependencies": [],
   "codeowners": ["@phanmemkhoinghiep"],
